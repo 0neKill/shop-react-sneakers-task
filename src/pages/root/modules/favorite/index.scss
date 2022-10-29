@@ -1,0 +1,10 @@
+.favorite {
+  &__header {
+    max-width: 290px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+}

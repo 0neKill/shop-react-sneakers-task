@@ -1,0 +1,23 @@
+{
+  "all.sneakers": "All sneakers",
+  "best.sneakers": "Shop the best sneakers",
+  "value": "{sum} rub",
+  "my.favorites": "My favorites",
+  "empty": "Empty",
+  "basket": "Basket",
+  "total": "Total",
+  "tax": "Tax {percent}",
+  "place.an.order": "Place an order",
+  "the.basket.is.empty": "The basket is empty",
+  "add.at.least": "Add at least one pair of sneakers to make an order",
+  "go.back": "Go back",
+  "you.do.not.have": "You don't have any orders",
+  "are.you.a.beggar": "Are you a beggar?",
+  "place.at.least.one": "Place at least one order",
+  "there.are.no.bookmarks": "There are no bookmarks",
+  "you.did.not.bookmark.anything": "You didn't bookmark anything",
+  "the.order.has.been.placed": "The order has been placed!",
+  "your.order": "Your order #{totalCount} will be delivered to courier delivery soon",
+  "my.purchases": "My purchases",
+  "price": "price"
+}

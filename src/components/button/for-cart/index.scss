@@ -1,0 +1,100 @@
+.btn-for-cart {
+  height: 32px;
+  width: 32px;
+  border-radius: 8px;
+  border: 1px solid #F2F2F2;
+  background-color: transparent;
+  font-size: 22px;
+  color: #D3D3D3;
+  position: relative;
+  cursor: pointer;
+  transition: box-shadow .2s linear;
+
+  &:hover {
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  span {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+
+    &::before, &::after {
+      display: block;
+      position: absolute;
+      content: '';
+      background-color: #D3D3D3;
+      top: 50%;
+      left: 50%;
+      transform: translate3d(-50%, -50%, 0);
+    }
+
+    &::before {
+      width: 10px;
+      height: 2px;
+    }
+
+    &::after {
+      width: 2px;
+      height: 10px;
+    }
+  }
+
+  &.remove {
+    span {
+      &::before, &::after {
+        display: block;
+        position: absolute;
+        content: '';
+        background-color: #D3D3D3;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0) rotate(45deg);
+      }
+    }
+  }
+
+  &.exit {
+    span {
+      &::after {
+        display: none;
+      }
+
+      &::before {
+        display: block;
+        position: absolute;
+        content: '';
+        background-color: transparent;
+        top: 50%;
+        left: 50%;
+        height: 7px;
+        width: 7px;
+        border-left: 2.2px solid #D3D3D3;
+        border-bottom: 2.2px solid #D3D3D3;
+        transform: translate3d(-50%, -50%, 0) rotate(45deg);
+      }
+    }
+  }
+
+  &.active {
+    background: linear-gradient(180deg, #89F09C 0%, #3CC755 100%);
+
+    span {
+      height: 10px;
+      width: 8px;
+      border-right: 2.2px solid #FFFFFF;
+      border-bottom: 2.2px solid #FFFFFF;
+      box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+      transform: translate3d(-50%, -50%, 0) rotate(45deg);
+
+      &::before, &::after {
+        display: none;
+        visibility: hidden;
+      }
+    }
+  }
+
+}
+

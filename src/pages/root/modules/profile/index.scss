@@ -1,0 +1,10 @@
+.profile {
+  &__header {
+    max-width: 270px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+}

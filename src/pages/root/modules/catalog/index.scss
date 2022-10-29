@@ -1,0 +1,21 @@
+.catalog {
+
+  &__header {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__search {
+    display: block;
+    border: 1px solid #F3F3F3;
+    border-radius: 10px;
+    max-height: 45px;
+    max-width: 250px;
+    width: 100%;
+    padding: 15px;
+    color: #C4C4C4;
+  }
+}
+

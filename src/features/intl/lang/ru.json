@@ -1,0 +1,23 @@
+{
+  "all.sneakers": "Все кроссовки",
+  "best.sneakers": "Магазин лучших кроссовок",
+  "value": "{sum} руб",
+  "my.favorites": "Мои закладки",
+  "empty": "Пусто",
+  "basket": "Корзина",
+  "total": "Итого",
+  "tax": "Налог {percent}",
+  "place.an.order": "Оформить заказ",
+  "the.basket.is.empty": "Корзина пустая",
+  "add.at.least": "Добавьте хотя бы одну пару кроссовок, чтобы сделать заказ",
+  "go.back": "Вернуться назад",
+  "you.do.not.have": "У вас нет заказов",
+  "are.you.a.beggar": "Вы нищеброд?",
+  "place.at.least.one": "Сделайте заказ хотя бы один",
+  "there.are.no.bookmarks": "Закладок нет",
+  "you.did.not.bookmark.anything": "Вы ничего не добавляли в закладки",
+  "the.order.has.been.placed": "Заказ оформлен!",
+  "your.order": "Ваш заказ #{totalCount} скоро будет передан курьерской доставке",
+  "my.purchases": "Мои покупки",
+  "price": "цена"
+}
